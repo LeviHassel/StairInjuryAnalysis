@@ -4,7 +4,7 @@
 Levi Hassel
 
 ## Overview
-Have you ever wondered the exact probability of someone going to the ER for falling down the stairs in a certain year of his or her life? ... Yeah, I didn't think so. Still, I decided to use numerical integration methods to analyze stair injuries and census data in order to answer this exact question. While this README will give you the gist of how to run the code, I **highly recommend** you read my [report](/report.pdf "Stair Injury Analysis Report") on the matter. It will clear up all of the details and contains some very interesting charts.
+Have you ever wondered the exact probability of someone going to the ER for falling down the stairs in a certain span of his or her life? ... Yeah, I didn't think so. Still, I decided to use numerical integration methods to analyze stair injuries and census data in order to answer this exact question. While this README will give you the gist of how to run the code, I **highly recommend** you read my [report](/report.pdf "Stair Injury Analysis Report") on the matter. It will clear up all of the details and contains some very interesting charts.
 
 ## Organization
 There are three MATLAB programs: *sumOfRectangles.m*, *trapezoid.m* and *simpsons.m*. These are NOT general use functions. They are designed specifically for output in terms of this project; they do not return values, they only print off the answers. All solutions are multiplied by 100 in order to show them in terms of percentages, the way the report displays probability. For more info, check out the [full report](/report.pdf "Stair Injury Analysis Report").
